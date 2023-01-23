@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>Z19_MESSAGE</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z19_MESSAGE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Duplicate Keey Error (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z19_MESSAGE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Insertion Successfully (Movie-ID: &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z19_MESSAGE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Insertion Successfully (Video-ID: &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z19_MESSAGE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>No Movie found with Movie-ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z19_MESSAGE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Insertion Successfully (Customer-ID: &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z19_MESSAGE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>No Custumer fount with Customer-ID: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z19_MESSAGE</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>No Video found with Video-ID &amp;1 or Video not available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z19_MESSAGE</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Insertion Successfully (Rental-ID: &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z19_MESSAGE</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Error Updating Video (Video-ID: &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z19_MESSAGE</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z19_MESSAGE</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Nó Rental found with Rental ID &amp;1</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

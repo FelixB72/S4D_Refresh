@@ -1,0 +1,56 @@
+@Metadata.layer: #CUSTOMER
+@UI.headerInfo:
+{ 
+title.value: 'VideoId',
+description.value: 'Medium',
+typeName: 'Video',
+typeNamePlural: 'Videos'}
+
+annotate view ZC_19_VideoTP
+    with 
+{
+    /* Facets */
+  @UI.facet: [{ position: 10, type: #IDENTIFICATION_REFERENCE, label: 'Details' },
+  { position: 20, type: #LINEITEM_REFERENCE, label: 'Rentals', targetElement: '_Rentals' }]
+
+  /* Fields */
+  @UI.hidden: true
+  VideoUuid;
+
+  @UI.lineItem: [{ position: 10 }]
+  @UI.identification: [{ position: 10 }]
+  VideoId;
+
+ @UI.identification: [{ position: 15 }]
+  MovieUuid;
+
+  @UI.lineItem: [{ position: 20 }]
+  @UI.identification: [{ position: 20 }]
+  @UI.selectionField: [{ position: 10 }]
+  Medium;
+
+  @UI.lineItem: [{ position: 30 }]
+  @UI.identification: [{ position: 30 }]
+  @UI.selectionField: [{ position: 20 }]
+  Status;
+
+  @UI.lineItem: [{ position: 40 }]
+  @UI.identification: [{ position: 40 }]
+  Title;
+
+  @UI.lineItem: [{ position: 50 }]
+  @UI.identification: [{ position: 50 }]
+  @UI.selectionField: [{ position: 30 }]
+  Genre;
+
+  @UI.lineItem: [{ position: 60 }]
+  @UI.identification: [{ position: 60 }]
+  @UI.selectionField: [{ position: 40 }]
+  PublishingYear;
+
+  @UI.lineItem: [{ position: 70 }]
+  @UI.identification: [{ position: 70 }]
+  @UI.selectionField: [{ position: 50 }]
+  Rating;
+    
+}

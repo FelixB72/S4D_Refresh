@@ -1,0 +1,45 @@
+@Metadata.layer: #CUSTOMER
+@UI.headerInfo:
+{
+  title.value: 'RentalId',
+  description.value: 'RentalDate',
+  typeNamePlural: 'Rentals',
+  typeName: 'Rental'
+}
+annotate view ZC_19_RentalTP
+    with 
+{
+    /* Facets */
+  @UI.facet: [{ position: 10, type: #IDENTIFICATION_REFERENCE, label: 'Details' },
+  { position: 20, type: #LINEITEM_REFERENCE, label: 'Video', targetElement: '_Video' }]
+
+  /* Fields */
+  @UI.hidden: true
+  RentalUuid;
+
+  @UI.lineItem: [{ position: 10 }]
+  @UI.identification: [{ position: 10 }]
+  RentalId;
+
+  @UI.hidden: true
+  VideoUuid;
+
+  @UI.hidden: true
+  CustomerUuid;
+
+  @UI.lineItem: [{ position: 20 }]
+  @UI.identification: [{ position: 20 }]
+  RentalDate;
+
+  @UI.lineItem: [{ position: 30 }]
+  @UI.identification: [{ position: 30 }]
+  ReturnDate;
+
+  @UI.lineItem: [{ position: 40 }]
+  @UI.identification: [{ position: 40 }]
+  RentalFee;
+
+  @UI.hidden: true
+  CurrencyCode;
+   
+}
